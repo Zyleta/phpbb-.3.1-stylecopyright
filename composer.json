@@ -1,0 +1,31 @@
+{
+    "name": "zyleta/stylecopyright",
+    "type": "phpbb-extension",
+    "description": "This extension adds style copyright in footer.",
+    "homepage": "none",
+    "version": "1.0.0",
+    "time": "2016-06-03",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Zyleta",
+            "homepage": "none",
+            "email": "mateusz.zyleta@gmail.com",
+            "role": "none"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Style copyright in footer",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.0-a1,<3.2.*@dev"
+        },
+        "version-check": {
+            "host": "-",
+            "directory": "-",
+            "filename": "-"
+        }
+    }
+}

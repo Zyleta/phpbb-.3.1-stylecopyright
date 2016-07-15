@@ -1,0 +1,9 @@
+services:
+    zyleta.stylecopyright.listener:
+        class: zyleta\stylecopyright\event\listener
+        arguments:
+            - @template
+            - @user
+            - $db
+        tags:
+            - { name: event.listener }
